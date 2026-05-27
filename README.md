@@ -11,3 +11,10 @@ Packages:
 - fixture-invalid-metadata-workflow: intentionally invalid structured workflow metadata.
 
 The package data is intentionally synthetic and should not be used as production workflow content.
+
+## Sandbox fixture
+
+`sandbox/vendor-egress-allowlist/` contains a Docker image fixture for package
+pre-install sandbox checks. It validates package text for outbound URLs and can
+install container egress firewall rules that allow only OpenAI, Anthropic/Claude,
+and Cursor API host families when run with `NET_ADMIN`.
