@@ -1,0 +1,37 @@
+{
+  "name": "fixture-workflow-package-sandbox-review",
+  "version": "0.1.0",
+  "title": "Fixture Workflow Package Sandbox Review",
+  "description": "Demonstrates rielflow/workflow-package-sandbox-review as a normal workflow node.",
+  "tags": [
+    "fixture",
+    "security",
+    "sandbox",
+    "llm-review"
+  ],
+  "workflow": {
+    "title": "Fixture Workflow Package Sandbox Review",
+    "description": "Demonstrates rielflow/workflow-package-sandbox-review as a normal workflow node.",
+    "tags": [
+      "fixture",
+      "security",
+      "sandbox",
+      "llm-review"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "32a96b4a17a70061f2b03d4bcfdbb3e9",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "007b8213bb2e4cd7165036675a5b2b3b1658136e5d048865f64e357bdac16af5"
+  },
+  "workflowDirectory": "fixture-workflow-package-sandbox-review",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ]
+}
