@@ -1,0 +1,7 @@
+{
+  "id": "main-worker",
+  "executionBackend": "codex-agent",
+  "model": "gpt-5-nano",
+  "promptTemplateFile": "prompts/main-worker.md",
+  "variables": {}
+}

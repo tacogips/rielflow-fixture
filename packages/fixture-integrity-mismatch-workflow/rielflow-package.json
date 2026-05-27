@@ -1,0 +1,35 @@
+{
+  "name": "fixture-integrity-mismatch-workflow",
+  "version": "0.1.0",
+  "title": "Fixture Integrity Mismatch Workflow",
+  "description": "Fixture package with intentionally incorrect md5 and sha256 metadata for checkout validation failures.",
+  "tags": [
+    "fixture",
+    "error",
+    "integrity"
+  ],
+  "workflow": {
+    "title": "Fixture Integrity Mismatch Workflow",
+    "description": "Fixture package with intentionally incorrect md5 and sha256 metadata for checkout validation failures.",
+    "tags": [
+      "fixture",
+      "error",
+      "integrity"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "00000000000000000000000000000000",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "workflowDirectory": "fixture-integrity-mismatch-workflow",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ]
+}
