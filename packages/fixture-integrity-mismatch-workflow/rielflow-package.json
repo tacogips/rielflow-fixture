@@ -27,7 +27,7 @@
     "digestAlgorithm": "sha256",
     "digest": "0000000000000000000000000000000000000000000000000000000000000000"
   },
-  "workflowDirectory": "fixture-integrity-mismatch-workflow",
+  "workflowDirectory": "workflows/fixture-integrity-mismatch-workflow",
   "repository": "https://github.com/tacogips/rielflow-fixture",
   "backends": [
     "codex-agent"

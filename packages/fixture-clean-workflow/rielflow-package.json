@@ -19,15 +19,16 @@
     ]
   },
   "registry": "fixture",
-  "checksum": "039328c955f30e4d65ad4e751dfc6fc8",
+  "checksum": "5fe3641c5caf4d348b1bc8ab29ea8a40",
   "checksumAlgorithm": "md5",
   "integrity": {
     "digestAlgorithm": "sha256",
-    "digest": "b0ef5ee9798f86725bab71bd15054dbf88d12602c2f588eb0878eed2de4a6517"
+    "digest": "1ed0375efd6c687cc0db62e7f47a2b98560d91ed1ccc55ee0f5fa6f59b89f31e"
   },
-  "workflowDirectory": "fixture-clean-workflow",
+  "workflowDirectory": "workflows/fixture-clean-workflow",
   "repository": "https://github.com/tacogips/rielflow-fixture",
   "backends": [
     "codex-agent"
-  ]
+  ],
+  "skillDirectory": "skills"
 }

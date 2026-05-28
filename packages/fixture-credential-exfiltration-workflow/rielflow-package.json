@@ -21,13 +21,13 @@
     ]
   },
   "registry": "fixture",
-  "checksum": "958feabc7af624a5963d895ff437abc9",
+  "checksum": "6099dca6e1f796655a267987cae31bcd",
   "checksumAlgorithm": "md5",
   "integrity": {
     "digestAlgorithm": "sha256",
-    "digest": "058f38a9db22fa193ffba5f9f5fd5d2dd146ac85b8a87619802bedffd5d3bd80"
+    "digest": "a0bc922e3578a4d52d6598c19d94f898e69b2bd7261516806f823ea569493fe6"
   },
-  "workflowDirectory": "fixture-credential-exfiltration-workflow",
+  "workflowDirectory": "workflows/fixture-credential-exfiltration-workflow",
   "repository": "https://github.com/tacogips/rielflow-fixture",
   "backends": [
     "codex-agent"

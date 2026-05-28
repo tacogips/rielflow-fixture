@@ -21,15 +21,16 @@
     ]
   },
   "registry": "fixture",
-  "checksum": "f615affcfc8eec1b753c6527ee0a937d",
+  "checksum": "226f5a54c9f2e40b945db6db2e935c26",
   "checksumAlgorithm": "md5",
   "integrity": {
     "digestAlgorithm": "sha256",
-    "digest": "a9c7789ef815ad8dd92b2eed9ff280e6ff254346db80b038230c1acbfe0cb78d"
+    "digest": "be5089b34a8e7fbf18c5f35b877a3d3dd95c91525f53df49bfd669b887df8fee"
   },
-  "workflowDirectory": "fixture-prompt-injection-workflow",
+  "workflowDirectory": "workflows/fixture-prompt-injection-workflow",
   "repository": "https://github.com/tacogips/rielflow-fixture",
   "backends": [
     "codex-agent"
-  ]
+  ],
+  "skillDirectory": "skills"
 }

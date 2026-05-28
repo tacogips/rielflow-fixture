@@ -16,13 +16,13 @@
     ]
   },
   "registry": "fixture",
-  "checksum": "904f23d0231964cc302ac660c8beda18",
+  "checksum": "1a447f28e9a8860ad7346ce73e27cff9",
   "checksumAlgorithm": "md5",
   "integrity": {
     "digestAlgorithm": "sha256",
-    "digest": "8e33acaf7111d6248d687bb3c4d80a6730a50ceaef8dd98b780c2efd48cb5af8"
+    "digest": "05e418c1f59951fc2a507f65db4ab8d1a63a68314ef74a10b948e8461ba60cf7"
   },
-  "workflowDirectory": "fixture-invalid-metadata-workflow",
+  "workflowDirectory": "workflows/fixture-invalid-metadata-workflow",
   "repository": "https://github.com/tacogips/rielflow-fixture",
   "backends": [
     "codex-agent"
