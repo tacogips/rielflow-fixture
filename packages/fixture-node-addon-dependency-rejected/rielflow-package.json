@@ -1,0 +1,31 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-dependency-rejected",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Dependency Rejected",
+  "description": "Invalid node-addon fixture package with declared dependencies, which are unsupported in the first node-addon package iteration.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "dependency"
+  ],
+  "registry": "fixture",
+  "checksum": "e02cb5d77e4d36cb39c7a1ab4096c37c",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "2fecb072b863809fe3ed116e18ded7044e91ca1a1e749edbcaac454ff4b4b03a"
+  },
+  "addons": [
+    {
+      "name": "fixture/dependency-rejected",
+      "version": "1",
+      "sourcePath": "addons/fixture/dependency-rejected/1"
+    }
+  ],
+  "dependencies": [
+    "fixture-clean-workflow"
+  ],
+  "repository": "https://github.com/tacogips/rielflow-fixture"
+}

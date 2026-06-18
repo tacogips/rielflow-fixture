@@ -1,0 +1,28 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-credential-file",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Credential File",
+  "description": "Invalid node-addon fixture package containing a credential-like add-on file.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "credential-file"
+  ],
+  "registry": "fixture",
+  "checksum": "a8187b18c4b1fec6d54f11e60dea1341",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "b35b7c466584cb81e5e84db210d1d51e3adbe2257221ef94d6ffa9c3d6cf7166"
+  },
+  "addons": [
+    {
+      "name": "fixture/credential-file",
+      "version": "1",
+      "sourcePath": "addons/fixture/credential-file/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/rielflow-fixture"
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-executable-file",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Executable File",
+  "description": "Invalid node-addon fixture package containing JavaScript code.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "executable-file"
+  ],
+  "registry": "fixture",
+  "checksum": "8b4fbd6149c82a805b71217002bd903b",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "9e9541ebdf22cf786c7b067fbe62636b87f124246cf2fa85acc8b19ddec268fc"
+  },
+  "addons": [
+    {
+      "name": "fixture/executable-file",
+      "version": "1",
+      "sourcePath": "addons/fixture/executable-file/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/rielflow-fixture"
+}

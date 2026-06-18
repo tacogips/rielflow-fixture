@@ -1,0 +1,13 @@
+{
+  "name": "fixture/dependency-rejected",
+  "version": "1",
+  "description": "Invalid fixture add-on package with unsupported dependencies.",
+  "allowedRoles": ["worker"],
+  "resolution": {
+    "kind": "node-payload-template",
+    "nodeType": "agent",
+    "executionBackend": "codex-agent",
+    "model": "gpt-5.4",
+    "promptTemplateFile": "prompt.md"
+  }
+}
