@@ -1,0 +1,34 @@
+{
+  "name": "fixture-clean-workflow",
+  "version": "0.1.0",
+  "title": "Fixture Clean Workflow",
+  "description": "Safe fixture package used to verify successful package search and checkout.",
+  "tags": [
+    "fixture",
+    "safe"
+  ],
+  "workflow": {
+    "title": "Fixture Clean Workflow",
+    "description": "Safe fixture package used to verify successful package search and checkout.",
+    "tags": [
+      "fixture",
+      "safe"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "5fe3641c5caf4d348b1bc8ab29ea8a40",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "1ed0375efd6c687cc0db62e7f47a2b98560d91ed1ccc55ee0f5fa6f59b89f31e"
+  },
+  "workflowDirectory": "workflows/fixture-clean-workflow",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ],
+  "skillDirectory": "skills"
+}

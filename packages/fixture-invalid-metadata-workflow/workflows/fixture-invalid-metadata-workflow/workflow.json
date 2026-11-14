@@ -1,0 +1,34 @@
+{
+  "workflowId": "fixture-invalid-metadata-workflow",
+  "description": "Fixture package with invalid structured workflow metadata for manifest validation failures.",
+  "defaults": {
+    "maxLoopIterations": 3,
+    "nodeTimeoutMs": 120000
+  },
+  "prompts": {
+    "workerSystemPromptTemplate": "Follow the workflow task and return concise JSON."
+  },
+  "entryStepId": "main-worker",
+  "nodes": [
+    {
+      "id": "main-worker",
+      "nodeFile": "nodes/node-main-worker.json"
+    }
+  ],
+  "steps": [
+    {
+      "id": "main-worker",
+      "nodeId": "main-worker",
+      "role": "worker"
+    }
+  ],
+  "metadata": {
+    "rielflowPackage": {
+      "title": 123,
+      "description": "",
+      "tags": [
+        "fixture"
+      ]
+    }
+  }
+}
