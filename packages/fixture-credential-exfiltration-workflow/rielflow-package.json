@@ -1,0 +1,35 @@
+{
+  "name": "fixture-credential-exfiltration-workflow",
+  "version": "0.1.0",
+  "title": "Fixture Credential Exfiltration Workflow",
+  "description": "Fixture package containing credential exfiltration text for warn/reject pre-install checks.",
+  "tags": [
+    "fixture",
+    "security",
+    "credential-exfiltration"
+  ],
+  "workflow": {
+    "title": "Fixture Credential Exfiltration Workflow",
+    "description": "Fixture package containing credential exfiltration text for warn/reject pre-install checks.",
+    "tags": [
+      "fixture",
+      "security",
+      "credential-exfiltration"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "6099dca6e1f796655a267987cae31bcd",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "a0bc922e3578a4d52d6598c19d94f898e69b2bd7261516806f823ea569493fe6"
+  },
+  "workflowDirectory": "workflows/fixture-credential-exfiltration-workflow",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ]
+}

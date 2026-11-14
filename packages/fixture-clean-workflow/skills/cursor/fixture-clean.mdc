@@ -1,0 +1,6 @@
+---
+description: Safe Cursor rule fixture for rielflow package checkout tests.
+alwaysApply: false
+---
+
+Keep fixture workflow package checks deterministic and avoid external network access.
