@@ -1,0 +1,30 @@
+{
+  "name": "fixture-invalid-metadata-workflow",
+  "version": "0.1.0",
+  "title": "Fixture Invalid Metadata Workflow",
+  "description": "Fixture package with invalid structured workflow metadata for manifest validation failures.",
+  "tags": [
+    "fixture",
+    "error",
+    "metadata"
+  ],
+  "workflow": {
+    "title": 123,
+    "description": "",
+    "tags": [
+      "fixture"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "1a447f28e9a8860ad7346ce73e27cff9",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "05e418c1f59951fc2a507f65db4ab8d1a63a68314ef74a10b948e8461ba60cf7"
+  },
+  "workflowDirectory": "workflows/fixture-invalid-metadata-workflow",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ]
+}

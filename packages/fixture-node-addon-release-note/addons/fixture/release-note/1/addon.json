@@ -1,0 +1,22 @@
+{
+  "name": "fixture/release-note",
+  "version": "1",
+  "description": "Valid fixture add-on for release-note worker node tests.",
+  "allowedRoles": ["worker"],
+  "resolution": {
+    "kind": "node-payload-template",
+    "nodeType": "agent",
+    "executionBackend": "codex-agent",
+    "model": "gpt-5.4",
+    "promptTemplateFile": "prompt.md"
+  },
+  "inputSchema": {
+    "type": "object",
+    "additionalProperties": true,
+    "properties": {
+      "topic": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# rielflow fixture package registry
+
+This repository contains fixture workflow packages for rielflow package command testing.
+
+Packages:
+
+- fixture-clean-workflow: valid package for successful search and checkout.
+- fixture-prompt-injection-workflow: contains prompt-injection text for reject-mode pre-install checks.
+- fixture-credential-exfiltration-workflow: contains credential-exfiltration text for warn/reject pre-install checks.
+- fixture-integrity-mismatch-workflow: intentionally incorrect md5/sha256 manifest metadata.
+- fixture-invalid-metadata-workflow: intentionally invalid structured workflow metadata.
+- fixture-node-addon-release-note: valid node-addon package for successful search and checkout.
+- fixture-node-addon-unreferenced-file: invalid node-addon package with an unreferenced add-on file.
+- fixture-node-addon-credential-file: invalid node-addon package with a credential-like add-on file.
+- fixture-node-addon-executable-file: invalid node-addon package with JavaScript content.
+- fixture-node-addon-dependency-rejected: invalid node-addon package with unsupported dependencies.
+
+The package data is intentionally synthetic and should not be used as production workflow content.
+
+## Sandbox fixture
+
+`sandbox/vendor-egress-allowlist/` contains a Docker image fixture for package
+pre-install sandbox checks. It validates package text for outbound URLs and can
+install container egress firewall rules that allow only OpenAI, Anthropic/Claude,
+and Cursor API host families when run with `NET_ADMIN`.

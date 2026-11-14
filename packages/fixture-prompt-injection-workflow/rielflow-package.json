@@ -1,0 +1,36 @@
+{
+  "name": "fixture-prompt-injection-workflow",
+  "version": "0.1.0",
+  "title": "Fixture Prompt Injection Workflow",
+  "description": "Fixture package containing prompt-injection text that must be blocked by pre-install checks.",
+  "tags": [
+    "fixture",
+    "security",
+    "prompt-injection"
+  ],
+  "workflow": {
+    "title": "Fixture Prompt Injection Workflow",
+    "description": "Fixture package containing prompt-injection text that must be blocked by pre-install checks.",
+    "tags": [
+      "fixture",
+      "security",
+      "prompt-injection"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "226f5a54c9f2e40b945db6db2e935c26",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "be5089b34a8e7fbf18c5f35b877a3d3dd95c91525f53df49bfd669b887df8fee"
+  },
+  "workflowDirectory": "workflows/fixture-prompt-injection-workflow",
+  "repository": "https://github.com/tacogips/rielflow-fixture",
+  "backends": [
+    "codex-agent"
+  ],
+  "skillDirectory": "skills"
+}

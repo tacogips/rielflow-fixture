@@ -1,0 +1,27 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-release-note",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Release Note",
+  "description": "Valid node-addon fixture package for successful search and checkout.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "safe"
+  ],
+  "registry": "fixture",
+  "checksum": "2535a3cad68ca26f74843279c2b5ef66",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "1fbfcbcc67339fca5a612d9c066205be487737cdb1af83bfb652eb2041688b76"
+  },
+  "addons": [
+    {
+      "name": "fixture/release-note",
+      "version": "1",
+      "sourcePath": "addons/fixture/release-note/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/rielflow-fixture"
+}
