@@ -1,0 +1,12 @@
+# OpenAI API and realtime/SIP subdomain families.
+api.openai.com
+*.api.openai.com
+
+# Anthropic Claude API.
+api.anthropic.com
+
+# Cursor API endpoints used by Cursor agent/sandbox traffic.
+api2.cursor.sh
+api.cursor.com
+*.cursor.sh
+*.cursorapi.com

@@ -1,0 +1,13 @@
+{
+  "name": "fixture/credential-file",
+  "version": "1",
+  "description": "Invalid fixture add-on with a credential-like file name.",
+  "allowedRoles": ["worker"],
+  "resolution": {
+    "kind": "node-payload-template",
+    "nodeType": "agent",
+    "executionBackend": "codex-agent",
+    "model": "gpt-5.4",
+    "promptTemplateFile": "prompt.md"
+  }
+}

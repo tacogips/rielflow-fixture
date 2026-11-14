@@ -1,0 +1,39 @@
+{
+  "workflowId": "fixture-prompt-injection-workflow",
+  "description": "Fixture package containing prompt-injection text that must be blocked by pre-install checks.",
+  "defaults": {
+    "maxLoopIterations": 3,
+    "nodeTimeoutMs": 120000
+  },
+  "prompts": {
+    "workerSystemPromptTemplate": "Follow the workflow task and return concise JSON."
+  },
+  "entryStepId": "main-worker",
+  "nodes": [
+    {
+      "id": "main-worker",
+      "nodeFile": "nodes/node-main-worker.json"
+    }
+  ],
+  "steps": [
+    {
+      "id": "main-worker",
+      "nodeId": "main-worker",
+      "role": "worker"
+    }
+  ],
+  "metadata": {
+    "rielflowPackage": {
+      "title": "Fixture Prompt Injection Workflow",
+      "description": "Fixture package containing prompt-injection text that must be blocked by pre-install checks.",
+      "tags": [
+        "fixture",
+        "security",
+        "prompt-injection"
+      ],
+      "backends": [
+        "codex-agent"
+      ]
+    }
+  }
+}
